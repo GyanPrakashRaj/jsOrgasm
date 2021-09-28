@@ -1,0 +1,176 @@
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #080808;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+    color: #000000;
+}
+
+/* Container */
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+/* Header */
+
+.header {
+  background: #050505;
+  color: rgb(255, 190, 190);
+  padding: 1.6rem 0;
+}
+
+.header__title {
+  font-size: 3.2rem;
+  margin-bottom: .4rem;
+}
+
+.header__subtitle {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+/* Actions Bar */
+
+.actions {
+    background-color: #b411118c;
+    border-bottom: 1px solid #000000;
+    padding: .9rem
+}
+
+.actions__container {
+    align-items: center;
+    display: flex;
+    max-width: 50rem;
+    margin: 0 auto;
+    min-height: 3rem;
+    padding: 0 1.6rem;
+}
+
+.actions__container--spaced {
+    justify-content: space-between
+}
+
+/* Form Inputs */
+
+.input {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+}
+
+.dropdown {
+    border-radius: 0;
+    border: 1px solid #DEDFE0;
+    background: rgba(247, 223, 204, 0.87);
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+}
+
+.button {
+    background: #000000;
+    border: none;
+    border-bottom: 8px solid #396684;
+    color: rgb(248, 247, 247);
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: .6rem;
+    transition: background 0.1s ease;
+}
+
+.button:hover {
+    background: #1299f3;
+}
+
+.button--secondary {
+    background: #000000;
+    border-bottom: 2px solid #fc0808;
+}
+
+.button--secondary:hover {
+    background: #f10a0a;
+}
+
+/* Note editor */
+
+.title-input {
+    border: 1px solid #1282f1;
+    font-size: 2rem;
+    font-weight: 300;
+    display: block;
+    margin: 2.0rem 0;
+    padding: .8rem;
+    width: 100%;
+}
+
+.body-input {
+    border: 1px solid #0783ff;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: block;
+    margin: 2.4rem 0;
+    min-height: 15rem;
+    padding: .8rem;
+    width: 100%;
+}
+
+/* Note List Item */
+
+.list-item {
+    text-decoration: none;
+    color: #f5eded;
+    background: #121312;
+    border: 5px solid #83242469;
+    margin: .6rem 0;
+    padding: 1.6rem;
+    display: block;
+    transition: background 3.3s ease;
+}
+
+.list-item:hover {
+    background: #22212591;
+}
+
+.list-item__title {
+    font-size: 1.8rem;
+    margin-bottom: .4rem
+}
+
+.list-item__subtitle {
+    color: rgb(0, 129, 32);
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.empty-message {
+    text-align: center;
+    margin: 3.2rem 0;
+}
